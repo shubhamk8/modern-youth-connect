@@ -1,3 +1,4 @@
+sqlalchemy
 Fabric
 Flask-SQLAlchemy
 Flask-WTF
