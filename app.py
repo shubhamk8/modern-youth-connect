@@ -1,14 +1,10 @@
-from flask import Flask, render_template, request, redirect, url_for
-from flask_sqlalchemy import SQLAlchemy
-import logging
-from logging import Formatter, FileHandler
-from forms import *
-from models import User
-import os
+from flask import render_template, url_for, flash, redirect, request
+from flask_login import login_user, logout_user, current_user, login_required
 
-app = Flask(__name__)
-app.config.from_object('config')
-db = SQLAlchemy(app)
+from settings import app, login_manager
+from models import *
+from forms import *
+
 
 # Automatically tear down SQLAlchemy.
 '''
@@ -49,11 +45,12 @@ def login():
 
 @app.route('/register', methods=["GET", "POST"])
 def register():
-    form = RegisterForm()
+    form = RegisterForm(request.form)
     if form.validate_on_submit():
         user = User(name=form.name.data, password=form.password.data)
         db.session.add(user)
         db.session.commit()
+        flash('Welcome! Please Log In~')
         return redirect(url_for('login'))
     return render_template('forms/register.html', form=form)
 
@@ -74,7 +71,7 @@ def internal_error(error):
 def not_found_error(error):
     return render_template('errors/404.html'), 404
 
-
+'''
 if not app.debug:
     file_handler = FileHandler('error.log')
     file_handler.setFormatter(
@@ -84,6 +81,6 @@ if not app.debug:
     file_handler.setLevel(logging.INFO)
     app.logger.addHandler(file_handler)
     app.logger.info('errors')
-
+'''
 if __name__ == '__main__':
     app.run()
