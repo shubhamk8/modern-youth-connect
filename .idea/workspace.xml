@@ -2,76 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d318022-5d8e-48b4-a6f8-3072deac8128" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/admin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/controllers/pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/controllers/pages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/static/css/bootstrap-3.0.0.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/static/css/bootstrap-3.0.0.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/static/css/bootstrap-theme-3.0.0.css" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/static/css/bootstrap-theme-3.0.0.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/static/css/font-awesome-4.0.1.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/static/css/font-awesome-4.0.1.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/static/css/layout.forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/static/css/layout.forms.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/static/css/layout.main.css" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/static/css/layout.main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/static/css/main.quickfix.css" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/static/css/main.quickfix.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/static/css/main.responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/static/css/main.responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/static/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/static/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/static/js/libs/bootstrap-3.0.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/static/js/libs/bootstrap-3.0.0.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/static/js/libs/jquery-1.10.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/static/js/libs/jquery-1.10.2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/static/js/libs/modernizr-2.6.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/static/js/libs/modernizr-2.6.2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/static/js/libs/respond-1.3.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/static/js/libs/respond-1.3.0.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/static/js/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/static/js/plugins.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/static/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/templates/errors/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/templates/errors/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/templates/errors/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/templates/errors/500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/templates/forms/forgot.html" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/templates/forms/forgot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/templates/forms/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/templates/forms/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/templates/forms/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/templates/forms/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/templates/layouts/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/templates/layouts/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/templates/layouts/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/templates/layouts/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/templates/pages/placeholder.about.html" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/templates/pages/placeholder.about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/app/templates/pages/placeholder.home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/app/templates/pages/placeholder.home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/config/development/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/config/development/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/config/development/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/config/development/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/shell.py" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/shell.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/tests/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/tests/helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updated/tests/test_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/_updated/tests/test_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/fabfile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-3.1.1.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-3.1.1.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-theme-3.1.1.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-theme-3.1.1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-theme-3.1.1.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-theme-3.1.1.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/font-awesome-4.1.0.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.1.0.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/layout.forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/layout.forms.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/layout.main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/layout.main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.quickfix.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.quickfix.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/libs/bootstrap-3.1.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/libs/bootstrap-3.1.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/libs/jquery-1.11.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/libs/jquery-1.11.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/libs/modernizr-2.8.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/libs/modernizr-2.8.2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/libs/respond-1.4.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/libs/respond-1.4.2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/plugins.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/errors/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/errors/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/errors/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/errors/500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/forms/forgot.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/forms/forgot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/forms/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/forms/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/forms/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/forms/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layouts/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layouts/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layouts/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layouts/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/placeholder.about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/placeholder.about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/placeholder.home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/placeholder.home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,15 +21,38 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/modern_youth_connect$modern_youth_connect.coverage" NAME="modern-youth-connect Coverage Results" MODIFIED="1568716510072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\admin\Desktop\modern-youth-connect\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1R04my5LlX7WvwPG60KNy1eSNlp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/Api_Microservice" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/social-exchange/meraklis-demo" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -144,13 +106,50 @@
       <workItem from="1568792441193" duration="1140000" />
       <workItem from="1568714767161" duration="2291000" />
       <workItem from="1568717145962" duration="83000" />
+      <workItem from="1569233303328" duration="2159000" />
+      <workItem from="1569674212564" duration="875000" />
+      <workItem from="1569733097548" duration="1768000" />
+      <workItem from="1571065143272" duration="510000" />
+      <workItem from="1571065875142" duration="3460000" />
     </task>
+    <task id="LOCAL-00001" summary="shubham's commit">
+      <created>1568827850133</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568827850133</updated>
+    </task>
+    <task id="LOCAL-00002" summary="shubham's commit">
+      <created>1568827892669</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568827892669</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="shubham's commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="shubham's commit" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/modern_youth_connect$modern_youth_connect.coverage" NAME="modern-youth-connect Coverage Results" MODIFIED="1568793595633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/modern_youth_connect$modern_youth_connect.coverage" NAME="modern-youth-connect Coverage Results" MODIFIED="1569237145534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

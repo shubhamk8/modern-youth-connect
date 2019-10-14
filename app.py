@@ -1,8 +1,9 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
 import logging
 from logging import Formatter, FileHandler
 from forms import *
+from models import User
 import os
 
 app = Flask(__name__)
@@ -46,9 +47,14 @@ def login():
     return render_template('forms/login.html', form=form)
 
 
-@app.route('/register')
+@app.route('/register', methods=["GET", "POST"])
 def register():
-    form = RegisterForm(request.form)
+    form = RegisterForm()
+    if form.validate_on_submit():
+        user = User(name=form.name.data, password=form.password.data)
+        db.session.add(user)
+        db.session.commit()
+        return redirect(url_for('login'))
     return render_template('forms/register.html', form=form)
 
 
